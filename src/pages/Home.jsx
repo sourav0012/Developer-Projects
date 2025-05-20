@@ -16,7 +16,7 @@ function Home() {
         setMovies(popularMovies);
       } catch (err) {
         console.log(err);
-        setError("Failed to load movies...");
+        setError("Failed to load movies!...");
       } finally {
         setLoading(false);
       }
